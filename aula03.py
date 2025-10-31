@@ -1,0 +1,21 @@
+import pyautogui as py
+py.press("win")
+py.write("chrome")
+py.press("enter")
+py.sleep(2)
+py.write("senai americana")
+py.press("enter")
+py.sleep(2)
+# print(py.position()) achar cordenada do mouse
+py.click(217,471,button="left")  # Coordinates may vary; adjust as needed
+py.sleep(2)
+py.click(1583,795,button="left")
+py.sleep(2)
+py.click(236,491,button="left")
+py.write("python")
+py.sleep(1)
+py.press("enter")
+py.sleep(2)
+py.vscroll(-100)
+py.sleep(2)
+py.click(782,818,button="left")
