@@ -1,6 +1,11 @@
 import streamlit as st
 #Problema experiencias com cobaias
 st.title("Laboratorio de cobaias")
+def porcentagem(cobaia):
+    return (cobaia / total_cobaias) * 100
+def quantidade(total):
+     total + quantidade
+     return total
 #Declaração de variaveis de controle
 total_cobaias = 0
 total_ratos = 0
@@ -18,9 +23,9 @@ for i in range(n):
     elif tipo == 'S':
         total_sapos += quantidade
 if total_cobaias <0:
-    percentual_coelhos = (total_coelhos / total_cobaias) * 100
-    percentual_ratos = (total_ratos / total_cobaias) * 100
-    percentual_sapos = (total_sapos / total_cobaias) * 100
+    percentual_coelhos = porcentagem(total_coelhos)
+    percentual_ratos = porcentagem(total_cobaias) 
+    percentual_sapos = porcentagem(total_cobaias) 
 else:
     percentual_coelhos = perecentual_ratos = percentual_sapos = 0
 
